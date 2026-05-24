@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Contacts — Neatworks Carpentry</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Contact Neatworks Carpentry for a free quote — Feltham, London. Phone, email or contact form.">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/neatworks.css">
+</head>
+<body>
+
+<nav id="site-nav">
+  <a href="neatworkscarpentry-home-scrape.html" class="nav-logo">Neat<span>works</span></a>
+  <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+    <span class="nav-toggle-bar" aria-hidden="true"></span>
+    <span class="nav-toggle-bar" aria-hidden="true"></span>
+    <span class="nav-toggle-bar" aria-hidden="true"></span>
+  </button>
+  <div class="nav-backdrop" hidden></div>
+  <ul id="nav-menu" class="nav-links">
+    <li><a href="neatworkscarpentry-home-scrape.html">Home</a></li>
+    <li><a href="company.html">The company</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="portfolio.html">Portfolio</a></li>
+    <li><a href="contacts.html" class="nav-cta" aria-current="page">Get a quote</a></li>
+  </ul>
+</nav>
+
+<header class="page-hero">
+  <div class="page-hero-bg" aria-hidden="true">hello</div>
+  <div class="page-hero-inner">
+    <p class="section-label">Contact</p>
+    <h1 class="page-title">Contacts</h1>
+    <p class="page-lead">Tell us how you want your home / office improved. We'll get back to you within a day.</p>
+  </div>
+</header>
+
+<main class="page-main">
+  <div class="page-inner-wide contact-grid">
+
+    <div>
+      <p class="form-note">Get a free quote. If you need friendly advice, you can also use our contact form. Simply fill in the fields below and we'll get back to you within a day.</p>
+
+      <form action="#" method="post" novalidate>
+        <div class="form-field">
+          <label for="name">Your name <span class="req" aria-hidden="true">*</span></label>
+          <input type="text" id="name" name="name" required autocomplete="name">
+        </div>
+        <div class="form-field">
+          <label for="email">Your email <span class="req" aria-hidden="true">*</span></label>
+          <input type="email" id="email" name="email" required autocomplete="email">
+        </div>
+        <div class="form-field">
+          <label for="phone">Your phone</label>
+          <input type="tel" id="phone" name="phone" autocomplete="tel">
+        </div>
+        <div class="form-field">
+          <label for="contact-method">Preferred contact method <span class="req" aria-hidden="true">*</span></label>
+          <select id="contact-method" name="contact_method" required>
+            <option value="">Please select</option>
+            <option value="email">Email</option>
+            <option value="phone">Phone</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="call-time">Best time to call (if applicable)</label>
+          <input type="text" id="call-time" name="call_time" autocomplete="off">
+        </div>
+        <div class="form-field">
+          <label for="hear-about">How did you hear about us? <span class="req" aria-hidden="true">*</span></label>
+          <select id="hear-about" name="hear_about" required>
+            <option value="">Please select</option>
+            <option value="search">Search engine</option>
+            <option value="online-ad">Online ad</option>
+            <option value="magazine-ad">Magazine ad</option>
+            <option value="recommendation">Recommendation</option>
+            <option value="other">Other</option>
+          </select>
+        </div>
+        <div class="form-field">
+          <label for="message">Message <span class="req" aria-hidden="true">*</span></label>
+          <textarea id="message" name="message" required rows="6"></textarea>
+        </div>
+        <button type="submit" class="btn-primary">Send message</button>
+      </form>
+    </div>
+
+    <aside class="contact-panel">
+      <h2>Contact details</h2>
+      <ul class="contact-list">
+        <li>30 Badger Close, Feltham, Middlesex TW13 7HA</li>
+        <li>Tel: <a href="tel:02036914160">020 3691 4160</a><br>Mob: <a href="tel:07930391763">079 303 91 7639</a></li>
+        <li>Email: <a href="mailto:contact@neatworkscarpentry.co.uk">contact@neatworkscarpentry.co.uk</a></li>
+        <li>Web: <a href="https://www.neatworkscarpentry.co.uk/" target="_blank" rel="noopener noreferrer">www.neatworkscarpentry.co.uk</a></li>
+        <li>Mon–Fri: 9:00 → 18:00</li>
+      </ul>
+    </aside>
+
+  </div>
+</main>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-col">
+      <a href="neatworkscarpentry-home-scrape.html" class="footer-logo">Neat<span>works</span></a>
+      <p class="footer-about">A young company with a solid background in the industry, willing to go the extra mile for superb results at a fair price. FSC &amp; PEFC certified materials as standard. All site waste recycled.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Navigation</h5>
+      <ul class="footer-links">
+        <li><a href="neatworkscarpentry-home-scrape.html">Home</a></li>
+        <li><a href="company.html">The company</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contacts.html">Contacts</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Wood care tip</h5>
+      <div class="footer-tip">
+        <strong>Did you know?</strong>
+        Direct sunlight bleaches and dries wood surfaces, preventing new pigments from penetrating and creating a worn, washed-out effect. Use window coverings to protect your wood from harmful UV rays.
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2010–2026 Neatworks Carpentry. All rights reserved.</span>
+    <span>VAT Reg No: 111 2222 33 &nbsp;·&nbsp; <a href="tel:02036914160">020 3691 4160</a></span>
+  </div>
+</footer>
+
+<script src="js/nav.js"></script>
+</body>
+</html>

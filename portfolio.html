@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<title>Portfolio — Neatworks Carpentry</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="Recent bespoke kitchens, wardrobes, cabinetry and full property projects by Neatworks Carpentry, London.">
+<link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:wght@300;400;600&family=DM+Sans:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="css/neatworks.css">
+</head>
+<body>
+
+<nav id="site-nav">
+  <a href="neatworkscarpentry-home-scrape.html" class="nav-logo">Neat<span>works</span></a>
+  <button type="button" class="nav-toggle" aria-expanded="false" aria-controls="nav-menu" aria-label="Open menu">
+    <span class="nav-toggle-bar" aria-hidden="true"></span>
+    <span class="nav-toggle-bar" aria-hidden="true"></span>
+    <span class="nav-toggle-bar" aria-hidden="true"></span>
+  </button>
+  <div class="nav-backdrop" hidden></div>
+  <ul id="nav-menu" class="nav-links">
+    <li><a href="neatworkscarpentry-home-scrape.html">Home</a></li>
+    <li><a href="company.html">The company</a></li>
+    <li><a href="services.html">Services</a></li>
+    <li><a href="portfolio.html" aria-current="page">Portfolio</a></li>
+    <li><a href="contacts.html" class="nav-cta">Get a quote</a></li>
+  </ul>
+</nav>
+
+<header class="page-hero">
+  <div class="page-hero-bg" aria-hidden="true">work</div>
+  <div class="page-hero-inner">
+    <p class="section-label">Selected projects</p>
+    <h1 class="page-title">Portfolio</h1>
+    <p class="page-lead">A cross-section of kitchens, wardrobes, cabinetry and larger residential projects — filter by type to explore.</p>
+  </div>
+</header>
+
+<main class="page-main">
+  <div class="page-inner-wide">
+    <div class="filter-bar" role="group" aria-label="Filter projects">
+      <button type="button" class="filter-btn is-active" data-filter="all">All</button>
+      <button type="button" class="filter-btn" data-filter="bespoke-kitchens">Bespoke kitchens</button>
+      <button type="button" class="filter-btn" data-filter="fitted-wardrobes">Fully fitted wardrobes</button>
+      <button type="button" class="filter-btn" data-filter="cabinetry-storage">Cabinetry &amp; storage</button>
+      <button type="button" class="filter-btn" data-filter="complete-house">Complete house</button>
+      <button type="button" class="filter-btn" data-filter="complete-flat">Complete flat</button>
+    </div>
+
+    <div class="portfolio-list" id="portfolio-list">
+
+      <article class="portfolio-item" data-category="bespoke-kitchens">
+        <div class="pi-meta">
+          <p class="pi-cat">Bespoke kitchens</p>
+          <h3>Bespoke kitchen</h3>
+        </div>
+        <div class="pi-body">Bespoke kitchen designed to utilise as well as possible the limited space available, without compromising on the desired looks.</div>
+      </article>
+
+      <article class="portfolio-item" data-category="cabinetry-storage">
+        <div class="pi-meta">
+          <p class="pi-cat">Cabinetry &amp; storage</p>
+          <h3>Low level storage units</h3>
+        </div>
+        <div class="pi-body">Low level storage units, designed to accomodate all those things that do not need to be on the book shelves.</div>
+      </article>
+
+      <article class="portfolio-item" data-category="cabinetry-storage">
+        <div class="pi-meta">
+          <p class="pi-cat">Cabinetry &amp; storage</p>
+          <h3>Understairs drawer unit</h3>
+        </div>
+        <div class="pi-body">Understairs drawer unit designed to keep neatly, out of site your shoes. Made from MDF, painted front panels …</div>
+      </article>
+
+      <article class="portfolio-item" data-category="cabinetry-storage">
+        <div class="pi-meta">
+          <p class="pi-cat">Cabinetry &amp; storage</p>
+          <h3>Bespoke computer desks</h3>
+        </div>
+        <div class="pi-body">Bespoke computer desks, designed to accomodate 2 or 3 pupils (respectivly computers) on each desk.</div>
+      </article>
+
+      <article class="portfolio-item" data-category="fitted-wardrobes">
+        <div class="pi-meta">
+          <p class="pi-cat">Fully fitted wardrobes</p>
+          <h3>Fully fitted wardrobe</h3>
+        </div>
+        <div class="pi-body">Fully fitted wardrobe, designed to utilise every inch of the space it covers.</div>
+      </article>
+
+      <article class="portfolio-item" data-category="cabinetry-storage">
+        <div class="pi-meta">
+          <p class="pi-cat">Cabinetry &amp; storage</p>
+          <h3>Colourfull application</h3>
+        </div>
+        <div class="pi-body">A rather colourfull application designed for the school's Arts &amp; Craft area needs.</div>
+      </article>
+
+      <article class="portfolio-item" data-category="cabinetry-storage">
+        <div class="pi-meta">
+          <p class="pi-cat">Cabinetry &amp; storage</p>
+          <h3>Vanity unit</h3>
+        </div>
+        <div class="pi-body">Bathroom vanity units designed to match the colour scheme of your tiles as well as having it the size you want.</div>
+      </article>
+
+      <article class="portfolio-item" data-category="cabinetry-storage">
+        <div class="pi-meta">
+          <p class="pi-cat">Cabinetry &amp; storage</p>
+          <h3>TV unit</h3>
+        </div>
+        <div class="pi-body">Another project commissioned by our loyal client Daniella — white high gloss unit with Tipmatic door opening system.</div>
+      </article>
+
+      <article class="portfolio-item" data-category="cabinetry-storage">
+        <div class="pi-meta">
+          <p class="pi-cat">Cabinetry &amp; storage</p>
+          <h3>Bespoke media wall cabinetry</h3>
+        </div>
+        <div class="pi-body">Design, supply &amp; installation of 5 bespoke media cabinets in matt black.</div>
+      </article>
+
+      <article class="portfolio-item" data-category="bespoke-kitchens">
+        <div class="pi-meta">
+          <p class="pi-cat">Bespoke kitchens</p>
+          <h3>Newly built kitchen extension</h3>
+        </div>
+        <div class="pi-body">Design, supply and install bespoke kitchen in Chiswick, W4, London.</div>
+      </article>
+
+      <article class="portfolio-item" data-category="complete-house">
+        <div class="pi-meta">
+          <p class="pi-cat">Complete house</p>
+          <h3>Partial re-modelling and complete refurbishment</h3>
+        </div>
+        <div class="pi-body">Partial re-modelling and complete refurbishment of 5-bedroom, 3-bathroom house in Sunningdale.</div>
+      </article>
+
+      <article class="portfolio-item" data-category="complete-flat">
+        <div class="pi-meta">
+          <p class="pi-cat">Complete flat</p>
+          <h3>Remodelling and updating of a two-bedroom flat</h3>
+        </div>
+        <div class="pi-body">Remodelling and updating of a two-bedroom flat for government minister of a Middle Eastern country.</div>
+      </article>
+
+    </div>
+  </div>
+</main>
+
+<div class="cta-band">
+  <div class="cta-band-text">
+    <p class="section-label">Your project</p>
+    <h2 class="section-title">Like what you see?</h2>
+    <p>Tell us about your space — we'll help you plan the next step.</p>
+  </div>
+  <div class="cta-stack">
+    <a href="contacts.html" class="btn-primary">Get a free quote</a>
+    <a href="services.html" class="btn-ghost">Our services</a>
+  </div>
+</div>
+
+<footer>
+  <div class="footer-grid">
+    <div class="footer-col">
+      <a href="neatworkscarpentry-home-scrape.html" class="footer-logo">Neat<span>works</span></a>
+      <p class="footer-about">A young company with a solid background in the industry, willing to go the extra mile for superb results at a fair price. FSC &amp; PEFC certified materials as standard. All site waste recycled.</p>
+    </div>
+    <div class="footer-col">
+      <h5>Navigation</h5>
+      <ul class="footer-links">
+        <li><a href="neatworkscarpentry-home-scrape.html">Home</a></li>
+        <li><a href="company.html">The company</a></li>
+        <li><a href="services.html">Services</a></li>
+        <li><a href="portfolio.html">Portfolio</a></li>
+        <li><a href="contacts.html">Contacts</a></li>
+      </ul>
+    </div>
+    <div class="footer-col">
+      <h5>Wood care tip</h5>
+      <div class="footer-tip">
+        <strong>Did you know?</strong>
+        Direct sunlight bleaches and dries wood surfaces, preventing new pigments from penetrating and creating a worn, washed-out effect. Use window coverings to protect your wood from harmful UV rays.
+      </div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <span>© 2010–2026 Neatworks Carpentry. All rights reserved.</span>
+    <span>VAT Reg No: 111 2222 33 &nbsp;·&nbsp; <a href="tel:02036914160">020 3691 4160</a></span>
+  </div>
+</footer>
+
+<script src="js/nav.js"></script>
+<script>
+(function () {
+  var buttons = document.querySelectorAll('.filter-btn');
+  var items = document.querySelectorAll('.portfolio-item');
+  buttons.forEach(function (btn) {
+    btn.addEventListener('click', function () {
+      var filter = btn.getAttribute('data-filter');
+      buttons.forEach(function (b) { b.classList.toggle('is-active', b === btn); });
+      items.forEach(function (item) {
+        var cat = item.getAttribute('data-category');
+        var show = filter === 'all' || cat === filter;
+        item.classList.toggle('is-hidden', !show);
+      });
+    });
+  });
+})();
+</script>
+
+</body>
+</html>
